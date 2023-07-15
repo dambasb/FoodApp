@@ -23,7 +23,7 @@ const Button = ({ type, variant, children, size, onClick }) => {
   };
 
   return (
-    <button style={btnStyle} >{children}</button>
+    <button style={btnStyle} onClick={onClick}>{children}</button>
   )
 }
 

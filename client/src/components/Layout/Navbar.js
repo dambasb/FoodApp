@@ -15,8 +15,8 @@ function Navbar() {
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className='navbar'>
-          <Link to='#' className='navbar-logo'>
-            <MdIcons.MdFastfood onClick={toggleSidebar} /><span>Food App</span>
+          <Link to='/' className='navbar-logo'>
+            <MdIcons.MdFastfood /><span>Food App</span>
           </Link>
           <nav className='navbar-menu hide-navbar-menu' >
             <ul className='navbar-menu-inline'>

@@ -11,25 +11,25 @@ export const NavbarData = [
   },
   {
     title: 'About',
-    path: '/',
+    path: '/about',
     icon: <FaIcons.FaBars />,
     cName: 'nav-text'
   },
   {
     title: 'Service',
-    path: '/',
+    path: '/service',
     icon: <FaIcons.FaBars />,
     cName: 'nav-text'
   },
   {
     title: 'Menu',
-    path: '/',
+    path: '/menu',
     icon: <FaIcons.FaBars />,
     cName: 'nav-text'
   },
   {
     title: 'Contact',
-    path: '/',
+    path: '/contact',
     icon: <FaIcons.FaBars />,
     cName: 'nav-text'
   }

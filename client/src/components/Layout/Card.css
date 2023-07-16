@@ -1,0 +1,27 @@
+.card {
+  background-color: white;
+  padding: 25px;
+  margin-right: 15px;
+}
+
+.card:hover {
+  background-color: #feaf39;
+}
+
+.card:hover svg, .card:hover p,.card:hover h2{
+  fill: white;
+  color: white;
+}
+
+.card:last-of-type{
+  margin: 0px;
+}
+
+svg {
+  font-size: 45px;
+  color: #feaf39;
+}
+
+h2 {
+  padding: 5px 0px 10px 0px;
+}

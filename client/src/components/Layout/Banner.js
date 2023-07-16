@@ -14,7 +14,6 @@ const Banner = ({ title, text }) => {
         <h1 className='banner-title'>{title}</h1>
         <p className='banner-text'>{text}</p>
         <Button size='md' variant='primary' onClick={test}>Order Food</Button>
-
       </div>
     </div>
   );

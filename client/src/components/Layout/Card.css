@@ -1,7 +1,6 @@
 .card {
   background-color: white;
-  padding: 25px;
-  margin-right: 15px;
+  padding: 1.5em;
 }
 
 .card:hover {
@@ -11,10 +10,6 @@
 .card:hover svg, .card:hover p,.card:hover h2{
   fill: white;
   color: white;
-}
-
-.card:last-of-type{
-  margin: 0px;
 }
 
 svg {

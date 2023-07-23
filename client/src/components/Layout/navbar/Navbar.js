@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 import { NavbarData } from './NavbarData';
 import * as FaIcons from "react-icons/fa6";
-import * as MdIcons from 'react-icons/md'
-import './Navbar.css'
+import * as MdIcons from 'react-icons/md';
+import './Navbar.css';
 import { IconContext } from 'react-icons/lib';
 
 
